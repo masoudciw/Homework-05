@@ -1,0 +1,42 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+
+.swim-lanes {
+  min-height: 60vh;
+}
+
+.task-card {
+  margin: 0 auto;
+}
+
+.task-card:hover {
+  cursor: grab;
+}
+
+.form-group{
+  width: 500px;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: rgb(240, 239, 239);
+  position: relative;
+}
+
+.form-group input{
+  margin-bottom: 15px;
+}
+
+.form-group label{
+  margin-bottom: 8px;
+}
+
+.form-group textarea{
+  margin-bottom: 10px;
+}
+
+.form-group .btn-close{
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
